@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>遇见爱情</title>
+<script>
+        function zhuce() {
+            window.open("reg1.html");
+        }
+    </script>
+    <style>
+        body{
+            background-repeat:no-repeat ;
+            background-size:100% 100%;
+            background-attachment: fixed;
+        }
+        #top{
+            width: 100%;
+            height: 50px;
+            padding-top: 15px;
+            padding-left: 50px;
+        }
+        #bt{
+            position: absolute;
+            right: 50px;
+        }
+    </style>
+</head>
+<body background="image/timg1.jpg">
+<div id="top">
+    自从你出现后，我才知道原来有人爱是那么的美好..
+    <button id="bt" onclick="zhuce()">注册</button>
+</div>
+
+<div>
+    <from action="/JavaWebTest/login">
+        <input type="text" name="username" placeholder="请输入用户名 " />
+        <input type="text" name="password" placeholder="请输入密码 "/>
+        <input type="submit" value="登陆"/>
+    </from>
+</div>
+</body>
+</html>
